@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@600&family=Nanum+Myeongjo&display=swap');
+.footer hr{
+  margin-top: 0px;
+}
+.footer{
+  margin-top: 50px;
+  background-image: url(https://www.dior.com/couture/var/dior/storage/images/horizon/store-locator-banner-pcd/13850968-53-int-EN/store-locator-banner-pcd_1440_1200.jpg);
+}
+.wrapper__contacts{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+.wrapper__contacts-signup h3{
+  font-size: 16px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+.wrapper__contacts-signup__search{
+  display: flex;
+  margin: 40px
+}
+.wrapper__contacts-signup__search-input input{
+  height: 40px;
+  border: 1px solid #333;
+  border-right: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 230px;
+  margin-bottom: 0px;
+}
+ .wrapper__contacts-signup label{
+   margin-left: 35px;
+   font-size: 16px;
+   font-family: 'Josefin Slab', serif;
+   text-align: center;
+}
+.wrapper__contacts-signup__search-button button{
+  height: 44px;
+  width: 50px;
+  border: 1px solid #333;
+  border-left: none;
+  background-color: #BDBDBD;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 0px;
+}
+.wrapper__contacts-signup__search-input input::placeholder{
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-size: 17px;
+}
+.wrapper__contacts-contact ul{
+  list-style-type: none;
+}
+.wrapper__contacts-contact__list li{
+  text-align: center;
+  line-height: 2;
+}
+.wrapper__contacts-contact__list a{
+  color: #000;
+  font-size: 18px;
+}
+.wrapper__contacts-contact__list a:hover{
+  font-weight: bolder;
+}
+.wrapper__contacts-follow h3{
+  font-size: 16px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+.wrapper__contacts-follow__buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper__contacts-follow__buttons button{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #8A8A8A;
+}
+.wrapper__contacts-follow hr{
+  margin: 20px;
+}
+.wrapper__contacts-follow p{
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+.wrapper__contacts div:nth-child(4){
+  grid-column: 1/4;
+  font-family: "times new romans";
+}

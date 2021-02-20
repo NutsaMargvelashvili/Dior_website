@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@600&family=Nanum+Myeongjo&display=swap');
+.header__search{
+  display: flex;
+  margin: 40px
+
+}
+.header__search-input input{
+  height: 40px;
+  border: 1px solid #333;
+  border-right: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 230px;
+  margin-bottom: 0px;
+}
+.header__search-button button{
+  height: 44px;
+  width: 50px;
+  border: 1px solid #333;
+  border-left: none;
+  background-color: #FFF;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 0px;
+}
+.header__search-input input::placeholder{
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-size: 17px;
+}
+.header__name h1{
+  font-size: 50px;
+  font-family: 'Cormorant Infant', serif;
+  margin-top: 0px;
+  margin-left: 280px;
+  margin-bottom: 0px;
+}
+.nav ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+ .nav__list-item a{
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+.nav__list-item a:hover{
+ font-weight: bolder;
+ border-bottom: 3px solid #000;
+}
+.nav__list-item a:active{
+ font-weight: bolder;
+ border-bottom: 3px solid #000;
+}
